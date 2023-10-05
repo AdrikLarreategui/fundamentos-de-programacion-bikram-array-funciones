@@ -14,20 +14,18 @@ function suma(num1 , num2) {
     } 
     const resultado = suma(38, 10); // Funciones 5
 
-    function potenciacion(a, b) {
-        if (b === 0) {
-          return 1; 
-        }
-        let resultado = 1;
-        for (let i = 1; i <= Math.abs(b); i++) {
-          if (b > 0) {
-            resultado *= a;
-          } else {
-            resultado /= a;
-          }
-        }
-      
-        return resultado;
+function potenciacion(a, b) {
+  if (b === 0) {
+    return 1; 
+  } let resultado = 1;
+    for (let i = 1; i <= Math.abs(b); i++) {
+      if (b > 0) {
+      resultado *= a;
+    } else {
+      resultado /= a;
+  }
+  }
+return resultado;
       } //Funciones 6
 
 function separarPalabras(str) {
@@ -88,6 +86,33 @@ function eliminarDuplicados(arr) {
 } //Mezclando Arrays y Funciones 14
 
 const arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9] //Arrays 15
+
 let holaMundo = ['Hola', 'Mundo'] //Arrays 16
+
 const arrayDeArrays = [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']] //Arrays 18
+
 let loGuardoTodo = ['hola', 'que', 23, 42.33, 'tal'] //Arrays 17
+
+function multiplicacion (nume1, nume2) {
+  return nume1 * nume2 
+} //Funciones 19
+
+function division (nume3, nume4) {
+  return nume3 / nume4
+} //Funciones 20
+
+function esPar (nume5) {
+  return nume5 %2 === 0;
+  } //Funciones 21
+
+
+function suma (nume6, nume7) {
+  return nume6 + nume7
+}
+function resta (nume6, nume7) {
+  return nume6 - nume7
+}
+function multiplicacion (nume6, nume7) {
+  return nume6 * nume7
+}
+const arrayFunciones = [suma, resta, multiplicacion]  //Funciones 22
