@@ -30,10 +30,46 @@ function suma(num1 , num2) {
         return resultado;
       } //Funciones 6
 
-function separarPalabras(texto) {
-    return texto.split(' ');
+function separarPalabras(str) {
+  const palabrasArray = str.split(' ');
+  return palabrasArray;
 } //Funciones 7
+  
+function repetirString(str, veces) {
+  if (veces < 1) {
+    return '';
+}
+  let resultado = '';
+    for (let i = 0; i < veces; i++) {
+      resultado += str;
+      }
+return resultado; 
+} //Funciones 8
 
-function repertirString(string, numero)
+function esPrimo(numero) {
+  if (numero <= 1) {
+    return false;
+  }
+  for (let i = 2; i < numero; i++) {
+    if (numero % i === 0) {
+      return false;
+    }
+  }
+  return true;
+} //Funciones 9
+
+function ordenarArray(arr) {
+  return arr.sort(function(a, b) {
+    return a - b;
+  });
+}//Mezclando Arrays y Funciones 10
+
+function obtenerPares(arra) {
+  return arra.filter(function(numero){
+    return numero %2 === 0
+  });
+}//Mezclando Arrays y Funciones 11
+
+
 
 
