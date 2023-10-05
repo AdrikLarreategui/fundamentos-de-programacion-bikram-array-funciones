@@ -87,3 +87,7 @@ function eliminarDuplicados(arr) {
   });
 } //Mezclando Arrays y Funciones 14
 
+const arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9] //Arrays 15
+let holaMundo = ['Hola', 'Mundo'] //Arrays 16
+const arrayDeArrays = [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']] //Arrays 18
+let loGuardoTodo = ['hola', 'que', 23, 42.33, 'tal'] //Arrays 17
