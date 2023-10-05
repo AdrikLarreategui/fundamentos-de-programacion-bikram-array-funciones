@@ -70,6 +70,20 @@ function obtenerPares(arra) {
   });
 }//Mezclando Arrays y Funciones 11
 
+function pintarArray(arr) {
+  const arrayString = arr.toString(); // Convierte el array a una cadena usando toString()
+  return `Array: [${arr}] String: '${arrayString}'`;
+} //Mezclando Arrays y Funciones 12
 
+function arrayMapi(arr, funcion) {
+  return arr.map(function(elemento, indice) {
+    return funcion(elemento, indice);
+  }); //Mezclando Arrays y Funciones 13
+}
 
+function eliminarDuplicados(arr) {
+  return arr.filter(function(elemento, indice) {
+    return arr.indexOf(elemento) === indice;
+  });
+} //Mezclando Arrays y Funciones 14
 
